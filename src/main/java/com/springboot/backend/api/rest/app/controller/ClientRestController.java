@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.springboot.backend.api.rest.app.model.entity.Client;
 import com.springboot.backend.api.rest.app.model.service.ClientService;
 
-@CrossOrigin(origins = { "http://localhost:4200" })
+@CrossOrigin(origins = { "https://demo-angular-api-rest-client.herokuapp.com" })
 @RestController
 @RequestMapping(value = "/api")
 public class ClientRestController {
